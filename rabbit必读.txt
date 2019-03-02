@@ -1,0 +1,10 @@
+rabbitmq安装后，web管理端口http://localhost:15672/ 无法访问的解决
+在执行http://localhost:15672/?提示该页无法访问，因为这是rabbitmq安装后的一个web管理平台入口。当安装后就能访问了。需要在cmd窗口执行一个命令：
+rabbitmq-plugins enable rabbitmq_management
+
+此命令执行要先定位到rabbitmq的安装目录下的sbin文件夹下。
+--------------------- 
+作者：sxf359 
+来源：CSDN 
+原文：https://blog.csdn.net/sxf359/article/details/78239382 
+版权声明：本文为博主原创文章，转载请附上博文链接！
